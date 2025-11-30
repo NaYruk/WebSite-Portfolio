@@ -7,6 +7,7 @@
     <title>contact_project</title>
   </head>
   <body>
+    <!-- === HEADER === -->
     <header>
       <div class="photo">
         <img id="photo_img" src="/imgs/MilliotMarc.jpg" alt="profil_photo_img">
@@ -17,6 +18,8 @@
          Cherche un stage ou une alternance pour approfondir mes compétences et découvrir la collaboration en environnement professionnel.
       </p>
     </header>
+
+    <!-- === CONTACTS SECTION === -->
     <div class="Socials">
       <h2>Contacts</h2>
       <div class="cards-container">
@@ -41,8 +44,11 @@
         </a>
       </div>
     </div>
+
+    <!-- === PROJECTS SECTION === -->
     <div class="projects_caroussel">
       <h2>Projets</h2>
+      <!-- Carousel Desktop -->
       <div class="container">
         <div class="slide">
           <div
@@ -140,8 +146,69 @@
           <button class="next">▷</button>
         </div>
       </div>
+
+      <!-- === PROJECTS LIST (Mobile) === -->
+      <div class="projects-list">
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('/imgs/TerminalInteractif.png');"></div>
+          <div class="project-info">
+            <h3>PORTFOLIO TERMINAL</h3>
+            <p>Portfolio simulant un terminal interactif sous la forme d'un site web, UI immersive.</p>
+            <p class="techs">Technos : JS, React, HTML/CSS, Vite</p>
+            <div class="project-links">
+              <a href="https://github.com/NaYruk/CV-Site" target="_blank" rel="noopener noreferrer">
+                <button>GitHub</button>
+              </a>
+              <a href="https://terminal-mmilliot.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <button>Website</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('/imgs/TICFE_Picture.jpg');"></div>
+          <div class="project-info">
+            <h3>TICFE ASSIST</h3>
+            <p>Site visant à faciliter le remboursement de la TICFE pour les entreprises. Formulaire auto‑complété via une API utilisant le SIREN.</p>
+            <p class="techs">Technos : Django, Python, API Sirene, HTML/CSS</p>
+            <div class="project-links">
+              <a href="https://github.com/NaYruk/TICFE-ASSIST" target="_blank" rel="noopener noreferrer">
+                <button>GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('/imgs/MinishellPicture.png');"></div>
+          <div class="project-info">
+            <h3>MINISHELL</h3>
+            <p>Création d'un Shell en C, en se basant sur le fonctionnement de bash.</p>
+            <div class="project-links">
+              <a href="https://github.com/NaYruk/Minishell" target="_blank" rel="noopener noreferrer">
+                <button>GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image" style="background-image: url('/imgs/irssiPicture.png');"></div>
+          <div class="project-info">
+            <h3>IRC</h3>
+            <p>IRC est une implémentation complète d'un serveur basé sur le protocole IRC 1459 permettant de communiquer entre clients du serveur.</p>
+            <div class="project-links">
+              <a href="https://github.com/NaYruk/IRC" target="_blank" rel="noopener noreferrer">
+                <button>GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <!-- === FOOTER === -->
     <footer class="site-footer">
       <div class="footer-content">
         <div class="footer-links">

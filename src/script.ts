@@ -1,7 +1,7 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Carousel navigation
+  // === CAROUSEL NAVIGATION ===
   const next = document.querySelector(".next");
   const prev = document.querySelector(".prev");
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Scroll to top button
+  // === SCROLL TO TOP BUTTON ===
   const scrollTopBtn = document.getElementById('scrollTopBtn');
 
   if (scrollTopBtn) {
